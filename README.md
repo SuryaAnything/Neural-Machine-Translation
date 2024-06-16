@@ -27,7 +27,7 @@ The attention mechanism allows the decoder to focus on different parts of the so
 
 ![Seq2Seq](./images/seq2seq.png "without attention")
 
-![Attention Mechanism](./images/attention.png "with attention")
+![Attention Mechanism](./images/attention.jpg "with attention")
 
 
 

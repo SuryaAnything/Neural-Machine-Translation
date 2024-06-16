@@ -31,21 +31,13 @@ SRC_FIELD = Field(tokenize=tokenize_de, init_token='<sos>', eos_token='<eos>', l
 TRG_FIELD = Field(tokenize=tokenize_en, init_token='<sos>', eos_token='<eos>', lower=True)
 
 # Paths to the dataset files (assuming they are in the current working directory)
-<<<<<<< HEAD
+
 train_de_path = './data/en-de/train.de'
 train_en_path = './data/en-de/train.en'
 val_de_path = './data/en-de/val.de'
 val_en_path = './data/en-de/val.en'
 test_de_path = './data/en-de/test.de'
 test_en_path = './data/en-de/test.en'
-=======
-train_de_path = 'train.de'
-train_en_path = 'train.en'
-val_de_path = 'val.de'
-val_en_path = 'val.en'
-test_de_path = 'test.de'
-test_en_path = 'test.en'
->>>>>>> f68d07a6a34fb64101c8e0196536d92300038c94
 
 # Create the dataset fields
 fields = [('src', SRC_FIELD), ('trg', TRG_FIELD)]
