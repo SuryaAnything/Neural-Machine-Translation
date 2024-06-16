@@ -65,10 +65,10 @@ To train the model, simply run the script. The training loss will be printed at 
 model.load_state_dict(torch.load('model_checkpoint.pth'))
 
 # Example input sentence
-input_sentence = "Hallo, wie geht's?"
+input_sentence = "hält das Gerüst"
 
 # Translate
-translated_sentence = model.translate(input_sentence)
+translated_sentence = translate_sentence(input_sentence)
 print("Translated Sentence:", translated_sentence)
 ```
 ## External Source Code
